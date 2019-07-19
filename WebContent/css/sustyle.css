@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+html {
+  background-color:#9baec8;
+  font-family: "Tenor Sans", sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.signup {
+  
+  box-sizing: border-box; width: 260px;margin: 100px auto 0;box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);padding-bottom: 40px;border-radius: 10px;background-color: #D8E6E7;
+  border-color: white;
+}
+
+.signup-heading {
+  font-family: 'Enriqueta', arial, serif; line-height: 1.25; margin: 0 0 10px; font-size: 28px; font-weight: bold;
+  color:white;
+  text-align: center;
+}
+
+.input-txt {
+  width: 100%;
+  padding: 20px 10px;
+  background: #D8E6E7;
+  border: none;
+  font-size: 1em;
+  color: #6E7783;
+  border-bottom: 1px dotted #9DC3C1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+.input-txt:-moz-placeholder {
+  color: #6E7783;
+}
+.input-txt:-ms-input-placeholder {
+  color: #6E7783;
+}
+.input-txt::-webkit-input-placeholder {
+  color: #6E7783;
+}
+.input-txt:focus {
+  background-color: #9DC3C1;
+}
+
+.login-footer {
+  margin: 10px 0;
+  overlow: hidden;
+  float: left;
+  width: 100%;
+}
+
+.btn {
+  
+  border: none;
+  background: white;
+  color: #8b8687;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-left:99px;
+}
+
+
+.icon {
+  display: inline-block;
+}
+
+.icon--min {
+  font-size: .9em;
+}
+
+.lnk {
+  font-size: .8em;
+  line-height: 3em;
+  color: white;
+  text-decoration: none;
+}

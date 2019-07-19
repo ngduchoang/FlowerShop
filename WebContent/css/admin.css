@@ -1,0 +1,55 @@
+*{
+	
+}
+.categories {
+	height: 400px;
+	padding: 0px !important;  
+}
+.category a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	background: #33333363;
+	padding: 10px 12px
+}
+.category li{
+	list-style: none;
+}
+.category a:hover{
+	background: #fff;
+	text-decoration: none;
+	border: none;
+}
+
+.content {
+	border:  1px solid #696969 !important;
+	height: auto;
+}
+.content .header1 h2{
+	text-align: center;
+	color:white;
+	font-family: 'Trocchi', serif; font-size: 30px; font-weight: bold; line-height: 48px;
+	background: #33333363;
+	
+
+}
+.table{
+	color:black;
+}
+.panel{
+	background-color: none;
+}
+.panel-default {
+    border-color: #ddd;
+    width: 833px;
+}
+.form-horizontal .form-group {
+ 
+    margin-left: -177px;
+}
+.form-control {
+    display: block;
+  width: 100%; 
+}
